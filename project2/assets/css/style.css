@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background: var(--background-dark, #2F1893);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.container {
+    width: 1171px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+h1 {
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    margin-top: 104.8px;
+}
+
+p {
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    /* Text / Article */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.699999988079071;
+    margin-top: 29.2px;
+
+}
+
+.pt-58 {
+    padding-top: 58px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .col-lg-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-sm-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-bottom: 30px;
+    }
+}
+
+.margint-30 {
+    margin-top: 30px;
+}
+
+.border {
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.14999999105930328);
+    width: 270px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+
+.fox {
+    padding: 58px 88px 59px 82px;
+}
+
+.google {
+    padding: 61px 69px 56px 69px;
+}
+
+.walmart {
+    padding: 57px 39px 59px 47px;
+}
+
+.adidas {
+    padding: 43px 85px 47px 81px;
+}
+
+.pizza {
+    padding: 40px 99px 36px 89px;
+}
+
+.philips {
+    padding: 66px 53px 66px 64px;
+}
+
+.cnn {
+    padding: 55px 87px 54px 77px;
+}
+
+.bean {
+    padding: 45px 53px 62px 46px;
+}
